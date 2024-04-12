@@ -1,0 +1,19 @@
+@import './base/reset.scss';
+@import './utils/variables.scss';
+
+html {
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+body {
+  background-color: $white;
+  min-height: 100vh;
+  overflow-y: auto;
+}
+
+#__nuxt {
+  display: flex;
+  min-height: 100vh;
+  width: 100%;
+  background-color: $white;
+}
