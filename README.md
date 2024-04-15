@@ -11,7 +11,7 @@ utilizando a [Pokeapi](https://pokeapi.co/) para obter os dados dos pokémons
 
 ```bash
 $ git clone https://github.com/tvmota/nuxt-pokedex.git
-$ cd nuxt-front-test
+$ cd nuxt-pokedex
 #----------Execução_Com_NPM---------
 $ npm i
 #----------Execução_Com_YARN---------
