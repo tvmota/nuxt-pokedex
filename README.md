@@ -58,4 +58,5 @@ $ yarn preview
 - **Framework SSR**: [Nuxt](https://nuxt.com/).
 - **Pré-processador CSS**: [Sass](https://sass-lang.com//).
 - **State Management**: [Pinia](https://pinia.vuejs.org/).
+- **Internacionalização**: [vue-I18n](https://vue-i18n.intlify.dev/).
 
