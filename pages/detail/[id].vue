@@ -23,13 +23,13 @@ const detail = ref<Pokemon | null>();
 const fmtHeight = computed(() => {
   const { height = 0 } = detail.value || {};
 
-  return `${Math.round(height * 0.10)}m`;
+  return `${(height * 0.10).toFixed(1)}m`;
 });
 
 const fmtWeight = computed(() => {
   const { weight = 0 } = detail.value || {};
 
-  return `${Math.round(weight * 0.10)} kg`;
+  return `${(weight * 0.10).toFixed(1)} kg`;
 });
 
 function findStat(stat: string) {
@@ -134,7 +134,7 @@ await load();
                 </div>
                 <div class="detail__info__body__stats__item__progress">
                   {{ st.base_stat }}
-                  <ProgressBar :type="detail.types[0].type.name" :percent="1000 / st.base_stat" />
+                  <ProgressBar :type="detail.types[0].type.name" :percent="100 * st.base_stat/255" />
                 </div>
               </li>
             </ul>
@@ -170,6 +170,7 @@ await load();
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    box-sizing: border-box;
 
     &__header {
       display: flex;
@@ -454,6 +455,12 @@ await load();
 
   &--fairy {
     background-color: $pokemon-type-fairy;
+  }
+}
+
+@media screen and (max-width: $sm) {
+  .detail__info {
+    min-width: 100%
   }
 }
 </style>

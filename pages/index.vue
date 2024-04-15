@@ -1,17 +1,18 @@
 <script setup lang="ts">
+import { storeToRefs } from 'pinia';
 import { Card } from '~/components/ui/molecules';
 import { AppHeader } from '~/components/ui/organisms';
 import { usePokemonStore } from '~/stores/pokemon';
 
 const { setVisible, setInvisible } = useLoader();
 const store = usePokemonStore();
-const { list, loading, populateList } = store;
+const { list, loading } = storeToRefs(store);
 
 async function loadList() {
   setVisible();
 
   try {
-    await populateList();
+    await store.populateList();
   }
   finally {
     setInvisible();

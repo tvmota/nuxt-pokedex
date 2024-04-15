@@ -1,75 +1,61 @@
-# Nuxt 3 Minimal Starter
+# Nuxt Pokédex
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Projeto de pokedex utilizando o scafolding do [Nuxt 3](https://nuxt.new/) com base no mocks da pokedex [Figma](https://www.figma.com/community/file/979132880663340794)
+utilizando a [Pokeapi](https://pokeapi.co/) para obter os dados dos pokémons
 
-## Setup
+## Atenção: Para executar esse projeto é necessário a versão 18.0.0 ou mais recente do NodeJs
 
-Make sure to install the dependencies:
+### Instruções para execução
 
-```bash
-# npm
-npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
+##### Download do projeto e instalação das dependências
 
 ```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
+$ git clone https://github.com/tvmota/nuxt-pokedex.git
+$ cd nuxt-front-test
+#----------Execução_Com_NPM---------
+$ npm i
+#----------Execução_Com_YARN---------
+$ yarn
 ```
 
-## Production
-
-Build the application for production:
+##### Execução do servidor de desenvolvimento
 
 ```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
+#----------Navegar para dentro da pasta do projeto---------
+$ cd nuxt-front-test
+#----------Execução_Com_NPM---------
+$ npm run dev
+#----------Execução_Com_YARN---------
+$ yarn dev
 ```
 
-Locally preview production build:
+Após executar o comando será possível acessar o projeto no browser no endereço: [http://localhost:3000/](http://localhost:3000/)
+
+##### Geração do build para deploy ou preview(localhost)
 
 ```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
+#----------Navegar para dentro da pasta do projeto---------
+$ cd nuxt-front-test
+#----------Execução_Com_NPM---------
+$ npm run build
+#----------Execução_Com_YARN---------
+$ yarn build
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+##### Preview da versão de produção em um server local (Este passo deve ser executado após a execução do build)
+
+```bash
+#----------Navegar para dentro da pasta do projeto---------
+$ cd nuxt-front-test
+#----------Execução_Com_NPM---------
+$ npm run preview
+#----------Execução_Com_YARN---------
+$ yarn preview
+```
+
+### Libs utilizadas
+
+- **Framework SSR**: [Nuxt](https://nuxt.com/).
+- **Pré-processador CSS**: [Sass](https://sass-lang.com//).
+- **State Management**: [Pinia](https://pinia.vuejs.org/).
+
