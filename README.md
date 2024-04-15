@@ -22,7 +22,7 @@ $ yarn
 
 ```bash
 #----------Navegar para dentro da pasta do projeto---------
-$ cd nuxt-front-test
+$ cd nuxt-pokedex
 #----------Execução_Com_NPM---------
 $ npm run dev
 #----------Execução_Com_YARN---------
@@ -35,7 +35,7 @@ Após executar o comando será possível acessar o projeto no browser no endere�
 
 ```bash
 #----------Navegar para dentro da pasta do projeto---------
-$ cd nuxt-front-test
+$ cd nuxt-pokedex
 #----------Execução_Com_NPM---------
 $ npm run build
 #----------Execução_Com_YARN---------
@@ -46,7 +46,7 @@ $ yarn build
 
 ```bash
 #----------Navegar para dentro da pasta do projeto---------
-$ cd nuxt-front-test
+$ cd nuxt-pokedex
 #----------Execução_Com_NPM---------
 $ npm run preview
 #----------Execução_Com_YARN---------
