@@ -1,0 +1,25 @@
+@keyframes load {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  20% {
+    box-shadow: 0 0 80px 40px #00b8ee;
+  }
+
+  40% {
+    border-radius: 50%;
+  }
+
+  60% {
+    filter: blur(30px);
+  }
+
+  80% {
+    filter: blur(0.1px);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}

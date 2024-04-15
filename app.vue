@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import { Loader } from '~/components/ui/molecules';
+
 useHead({
   title: 'Nuxt pokedex',
   meta: [
@@ -18,6 +20,7 @@ useHead({
 
 <template>
   <NuxtPage />
+  <Loader />
 </template>
 
 <style lang="scss">

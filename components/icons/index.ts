@@ -1,0 +1,12 @@
+export { default as ArrowBack } from './ArrowBack.vue';
+export { default as ChevronLeft } from './ChevronLeft.vue';
+export { default as ChevronRight } from './ChevronRight.vue';
+export { default as Close } from './Close.vue';
+export { default as Pokeball } from './Pokeball.vue';
+export { default as Ruler } from './Ruler.vue';
+export { default as Search } from './Search.vue';
+export { default as Sort } from './Sort.vue';
+export { default as Tag } from './Tag.vue';
+export { default as TextFormat } from './TextFormat.vue';
+export { default as Weight } from './Weight.vue';
+export { default as Loading } from './Loading.vue';

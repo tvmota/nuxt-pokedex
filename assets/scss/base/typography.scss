@@ -1,0 +1,19 @@
+@import '~/assets/scss/utils/functions';
+
+.txt {
+  &--xs {
+    font-size: pxToRem(8);
+  }
+
+  &--sm {
+    font-size: pxToRem(12);
+  }
+
+  &--base {
+    font-size: pxToRem(14);
+  }
+
+  &--lg {
+    font-size: pxToRem(16);
+  }
+}

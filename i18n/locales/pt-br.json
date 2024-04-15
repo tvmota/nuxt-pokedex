@@ -1,3 +1,10 @@
 {
-  "welcome": "bem vindo"
+  "welcome": "bem vindo",
+  "pageTitle": "Pokédex",
+  "searchFor": "Pesquise pelo nome exato ou pelo número do pokémon e pressionar enter",
+  "about": "Sobre",
+  "weight": "Peso",
+  "height": "Altura",
+  "moves": "Movimentos",
+  "baseStats": "estatísticas base"
 }
